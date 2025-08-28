@@ -1,10 +1,10 @@
 # AI Document Chat Assistant
-
+See it here: https://docu-chat-tau.vercel.app
 A Next.js application that allows users to upload documents and chat with an AI assistant about their content. The system provides an intuitive interface for document-based question answering using Vercel's AI SDK.
 
 ## Features
 
-- **Document Upload**: Support for PDF, DOC, DOCX, TXT, and MD files
+- **Document Upload**: Support for DOC, DOCX, TXT, and MD files
 - **AI Chat Interface**: Clean, modern chat UI for asking questions about documents
 - **Real-time Processing**: Immediate feedback during document upload and processing
 - **Streaming AI Responses**: Real-time streaming responses using Vercel AI SDK
@@ -188,7 +188,6 @@ The system can extract text content from the following file formats:
 
 | File Type | Extension | Processing | Notes |
 |-----------|-----------|------------|-------|
-| **PDF** | `.pdf` | ✅ Full text extraction | Uses pdf-parse library |
 | **Word Document** | `.docx` | ✅ Full text extraction | Uses mammoth library |
 | **Word Document (Legacy)** | `.doc` | ✅ Full text extraction | Uses mammoth library |
 | **Text File** | `.txt` | ✅ Direct text reading | UTF-8 encoding |
