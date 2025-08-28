@@ -1,5 +1,6 @@
 # AI Document Chat Assistant
 See it here: https://docu-chat-tau.vercel.app
+
 A Next.js application that allows users to upload documents and chat with an AI assistant about their content. The system provides an intuitive interface for document-based question answering using Vercel's AI SDK.
 
 ## Features
